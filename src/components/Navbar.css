@@ -48,7 +48,7 @@ wtf is this
 
 .navbar {
   width: 100%;
-
+  max-width: 1200px;
   /* I implmented max-width on page so this max width should be the same as the page max width */
   max-width: 1200px;
   justify-content: flex-end;
