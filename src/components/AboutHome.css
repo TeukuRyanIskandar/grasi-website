@@ -1,0 +1,27 @@
+.about-home {
+    display: flex;
+    flex-direction: row-reverse; 
+    width: 100vw;
+    height: 351px;
+    background-color: #9897A9;      
+    margin: 0;
+    text-align: center;
+}
+
+.about-home img {
+    max-width: 100%; 
+    max-height: 351px;
+    margin-right: 20px; 
+    object-fit: cover;
+}
+
+.about-home-text * {
+    text-align: center;
+    margin-right: 200px;
+}
+
+.about-home-text h2 {
+    max-width: 100%;
+    color: #000000;   
+    font-size: 27px;
+}

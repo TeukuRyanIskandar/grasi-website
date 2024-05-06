@@ -1,0 +1,33 @@
+.navbar{
+    margin: 0;
+    height: 80px;
+    display: flex;
+    background-color: #ff0000;
+    justify-content: flex-end;
+    width: 100vw;
+    z-index: 1000;
+}
+
+.navbar * {
+    display: inline;
+    color: #ffffff;
+    vertical-align: middle;
+}
+
+.navbar ul {
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+}
+
+.navbar li {
+    margin: 20px;    
+}
+
+.navbar li a {
+    font-weight: 500;
+    text-decoration: none;    
+}
+
+.navbar a:hover {
+    color: #000000;
+}

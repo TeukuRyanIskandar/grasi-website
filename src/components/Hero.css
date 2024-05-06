@@ -1,0 +1,10 @@
+.img-container {
+    min-width: 100vw;
+}
+
+.hero-img {
+    width: 1280px;
+    height: 500px; 
+    object-position: 20% 80%;
+    object-fit: cover;
+}
