@@ -1,5 +1,10 @@
-.img-container {
+/* .img-container {
     min-width: 100vw;
+}*/
+
+.img-container {
+    display: flex;
+    justify-content: center;
 }
 
 .hero-img {
