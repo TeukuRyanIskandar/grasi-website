@@ -1,9 +1,10 @@
 import { Outlet, Link } from "react-router-dom";
-import './Navbar.css'
+import "./Navbar.css";
 
 const Navbar = () => {
-    return (
-      <>
+  return (
+    <>
+      <div className="navbar-wrapper">
         <nav className="navbar">
           <ul>
             <li>
@@ -23,10 +24,11 @@ const Navbar = () => {
             </li>
           </ul>
         </nav>
-  
-        <Outlet />
-      </>
-    )
-  };
-  
-  export default Navbar;
+      </div>
+
+      <Outlet />
+    </>
+  );
+};
+
+export default Navbar;

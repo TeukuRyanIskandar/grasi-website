@@ -1,9 +1,16 @@
-.img-container {
+/* .img-container {
     min-width: 100vw;
+}*/
+
+.img-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .hero-img {
-    width: 1280px;
+    /* width: 1280px; nope, this is not responsive */
+    width: 100%;
     height: 500px; 
     object-position: 20% 80%;
     object-fit: cover;

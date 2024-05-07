@@ -1,4 +1,11 @@
-#root {
+/* #root {
   max-width: 100vw;
   text-align: center;
+} */
+
+.app-container {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }

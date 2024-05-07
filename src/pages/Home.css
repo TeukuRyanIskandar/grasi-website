@@ -2,7 +2,8 @@
     position: relative;
     display:flex;
     flex-direction:column;
-    overflow: none;
+    /* overflow: none; (wrong info sorry,below correction)*/
+    overflow: hidden;
     min-height: 100vh;
     align-items:center;
 }
