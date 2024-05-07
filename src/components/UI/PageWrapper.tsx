@@ -21,15 +21,8 @@ function PageWrapper({ children, style }: TPageWrapperProps) {
          */
         display: "flex",
         flexDirection: "column",
-        position: "relative",
-        overflow: "hidden",
-        minHeight: "100vh",
+        width: "100%",
 
-        /** Its good practice to have a max width for you page
-         * You can always override this using the style prop
-         * for specific width in a particular page
-         */
-        maxWidth: "1200px",
         ...style,
       }}
     >
