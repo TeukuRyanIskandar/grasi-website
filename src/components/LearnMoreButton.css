@@ -1,0 +1,20 @@
+.learn-more-button {
+    background-color: #FCFCFC; 
+    color: #b30000; 
+    padding: 10px 20px; 
+    border: #b30000;
+    border-radius: 10px; 
+    cursor: pointer; 
+    text-decoration: none; 
+}
+
+.learn-more-button:hover {
+    background-color: #b30000;
+    color: #FCFCFC;
+    border: #b30000;
+}
+
+.button-link {
+    color: inherit; 
+    text-decoration: none; 
+}

@@ -1,46 +1,9 @@
-/* .navbar{
-    
-    margin: 0; // whats the margin for broo
-    height: 80px;
-    display: flex;
-    background-color: #ff0000;
-    justify-content: flex-end;
-    width: 100vw;
-    z-index: 1000;
-} */
-
-/*
-wtf is this
-.navbar * {
-  display: inline;
-  color: #ffffff;
-  vertical-align: middle;
-} 
-
-.navbar ul {
-  padding-top: 0.5em;
-  padding-bottom: 1em;
-}
-
-.navbar li {
-  margin: 20px;
-}
-
-.navbar li a {
-  font-weight: 500;
-  text-decoration: none;
-}
-
-.navbar a:hover {
-  color: #000000;
-}
-*/
-
 .navbar-wrapper {
   position: sticky; /* always on top */
   top: 0px;
   width: 100%;
-  background-color: #ff0000;
+  min-height: 50px;
+  background-color: transparent;
   z-index: 10;
 }
 
@@ -56,6 +19,21 @@ wtf is this
   justify-content: flex-end;
   list-style-type: none;
   gap: 20px; /* use gap bro not margin */
+}
+
+
+.navbar > ul > li > a{
+  text-decoration: none;
+  color: #333;
+}
+
+.donate-button {
+  
+  padding: 12px 25px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: #b30000;
 }
 
 @media (max-width: 768px) {
