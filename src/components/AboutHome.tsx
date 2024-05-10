@@ -10,9 +10,7 @@ const AboutHome = () => {
                 <div className='paragraph-wrapper'>
                     <p>Gerakan Rakyat Sadar Intelektual (GRASI) is made up of a group of social activists and educators that have a burning passion in helping Indonesian migrant workers, in particular in Sabah, Malaysia</p>
                 </div>
-                <div className='button-wrapper'>
-                    <LearnMoreButton />
-                </div>
+                <LearnMoreButton link="/About"/>
             </div>
             <div className='about-home-img-container'>
                 <img className="about-home-img-" src={AboutHomeImg} alt="Indonesian Students In Classroom" />
