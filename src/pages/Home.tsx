@@ -1,21 +1,12 @@
 import Hero from "../components/Hero";
 import AboutHome from "../components/AboutHome";
-import "./Home.css";
 import PageWrapper from "../components/UI/PageWrapper";
+import OurWorkHome from "../components/OurWorkHome";
+import Footer from "../components/Footer";
+
+import "./Home.css";
 
 const Home = () => {
-  /** I comment out your implementation as reference */
-  /* return (
-        <div className="home-container">
-            //
-            <header>
-                <Hero />
-            </header>
-            <main>
-                <AboutHome />
-            </main>
-        </div>
-    ); */
 
   return (
     <PageWrapper>
@@ -24,7 +15,11 @@ const Home = () => {
       </header>
       <main>
         <AboutHome />
+        <OurWorkHome />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </PageWrapper>
   );
 };
