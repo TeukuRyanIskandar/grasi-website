@@ -4,8 +4,8 @@ import './LearnMoreButton.css'
 const LearnMoreButton = () => {
 
     return (
-        <button >
-            <Link to={"/About"} >Learn More</Link>
+        <button className="learn-more-button">
+            <Link to={"/About"} className="button-link">Learn More</Link>
         </button>
     )
 }
