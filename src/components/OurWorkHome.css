@@ -1,0 +1,28 @@
+.our-work-home-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fcfcfc;
+    height: 600px;
+    align-items: center;
+    padding: 50px 0;
+    gap: 50px;
+}
+
+.our-work-home-text {
+    text-align: center;
+}
+
+.our-work-home-text h2 {
+    max-width: 100%;
+    line-height: 1;
+    color: #000000;
+    font-size: 44px;   
+    font-weight: 600;
+}
+
+.our-work-home-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
