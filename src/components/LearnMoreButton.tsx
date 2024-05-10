@@ -1,12 +1,14 @@
 import { Link } from "react-router-dom";
 import './LearnMoreButton.css'
 
-const LearnMoreButton = () => {
+const LearnMoreButton = ({link}) => {
 
     return (
-        <button className="learn-more-button">
-            <Link to={"/About"} className="button-link">Learn More</Link>
-        </button>
+        <div className="button-wrapper">
+            <button className="learn-more-button">
+                <Link to={link} className="button-link">Learn More</Link>
+            </button>
+        </div>
     )
 }
 
