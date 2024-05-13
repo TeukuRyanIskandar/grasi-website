@@ -7,6 +7,7 @@ import About from "./pages/About";
 import OurWork from "./pages/OurWork";
 import Contact from "./pages/Contact";
 import Donate from "./pages/Donate";
+import OurPeople from "./pages/OurPeople";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/OurWork" element={<OurWork />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Donate" element={<Donate />} />
+          <Route path="/OurPeople" element={<OurPeople />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -1,4 +1,3 @@
-import '../components/Navbar.css'
 
 const About = () => {
     return (

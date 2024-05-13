@@ -23,19 +23,21 @@
   gap: 20px; /* use gap bro not margin */
 }
 
-
 .navbar > ul > li > a{
   text-decoration: none;
   color: #333;
 }
 
 .donate-button {
-  
   padding: 12px 25px;
   border-radius: 10px;
   border: none;
   color: white;
   background-color: #b30000;
+}
+
+.donate-button:hover {
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
