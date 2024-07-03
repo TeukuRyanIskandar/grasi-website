@@ -1,18 +1,22 @@
 .footer-wrapper{
     background-color: #b30000;
+    padding: 100px 0px 30px;
     width: 100%;
-    height: 200px;
-    padding: 100px;
-}
+    height: 420px;    
 
-.footer-content-wrapper {
-    display: flex;
-    gap: 100px;
-}
+    .footer-content-wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 100px;
+        text-align: center;
 
-.footer-items-wrapper {
-    color: #FCFCFC;
-    width: 30%;
+        .footer-items-wrapper {
+            align-items: center;
+            color: #FCFCFC;
+            width: 33%;
+            margin-right: min(80px, 8%);
+        }
+    }
 }
 
 .footer-links > ul > li > a{

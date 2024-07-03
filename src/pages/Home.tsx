@@ -4,7 +4,7 @@ import PageWrapper from "../components/UI/PageWrapper";
 import OurWorkHome from "../components/OurWorkHome";
 import Footer from "../components/Footer";
 
-import "./Home.css";
+import "./Home.scss";
 
 const Home = () => {
 

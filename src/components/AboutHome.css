@@ -24,11 +24,7 @@
 }
 
 .about-home-text h2 {
-    max-width: 100%;
-    line-height: 1;
-    color: #000000;
-    font-size: 44px;   
-    font-weight: 600;
+    color: #262626;
 }
 
 .paragraph-wrapper p{

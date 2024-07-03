@@ -1,12 +1,18 @@
 import { Outlet, Link } from "react-router-dom";
-import "./Navbar.css";
+import "./Navbar.scss";
 
 const Navbar = () => {
   return (
     <>
-      <div className="navbar-wrapper">
-        <nav className="navbar">
-          <ul>
+      <nav role="navigation" className="navbar">
+        <div className="navbar-container">
+          <div className="navbar-brand">
+            <Link to="/">GRASI</Link>
+          </div>
+          <div className="navbar-menu">
+            <div className="navbar-start"></div>
+            <div className="navbar-end">
+            <ul>
             <li>
               <Link to="/">Home</Link>
             </li>
@@ -23,9 +29,10 @@ const Navbar = () => {
               <Link to="/Donate"><button className="donate-button">Donate</button></Link>
             </li>
           </ul>
-        </nav>
-      </div>
-
+            </div>
+          </div>
+        </div>
+      </nav>
       <Outlet />
     </>
   );

@@ -1,10 +1,13 @@
+import Header from "../components/Header";
 
 const About = () => {
     return (
-        <>
-            <h1>About Us</h1>
-            <h2>Description of the organisation</h2>
-        </>
+        <div className="about-container">
+            <Header
+                headerTitle="About Us"
+                headerDesc={["Description about the organisation"]}
+            />
+        </div>
     )
 }
 

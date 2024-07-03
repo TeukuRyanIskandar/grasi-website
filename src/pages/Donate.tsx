@@ -1,10 +1,13 @@
+import Header from "../components/Header";
 
 const Donate = () => {
     return (
-        <>
-            <h1>Donate</h1>
-            <h2>Donation to the organisation</h2>
-        </>
+        <div className="donate-container">
+            <Header
+                headerTitle="Donate"
+                headerDesc={["Donations to the organisation"]}
+            />
+        </div>
     )
 }
 

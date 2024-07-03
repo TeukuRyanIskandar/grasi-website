@@ -1,11 +1,15 @@
 import homeHero from '../assets/4f4ae328-d22c-4318-b11c-859f174284f4-2.jpg'
-import './Hero.css'
+import './Hero.scss'
 
 const Hero = () => {
     return (
-        <div className='img-container'>
-            <img className="hero-img" src={homeHero} alt="Indonesian Kids" />
-        </div>
+        <section className='hero-container'>
+            <div className='image-container'>
+                <picture>
+                    <img className="hero-img" src={homeHero} alt="Indonesian Kids" />
+                </picture>
+            </div>
+        </section>
     )
 
 }

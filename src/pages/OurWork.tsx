@@ -1,10 +1,13 @@
+import Header from "../components/Header";
 
 const OurWork = () => {
     return (
-        <>
-            <h1>Our Work</h1>
-            <h2>Recent Projects</h2>
-        </>
+        <div className="our-work-container">
+            <Header
+                headerTitle="Our Work"
+                headerDesc={["Recent Projects"]}
+            />
+        </div>
     )
 }
 

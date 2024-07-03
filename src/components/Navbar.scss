@@ -1,0 +1,114 @@
+.navbar {
+  min-height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  margin-bottom: 10px;
+
+
+  .navbar-container {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    position: unset;
+    min-height: unset;
+    margin: 0 auto;
+
+    .navbar-brand {
+      margin: 0.75rem;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: unset;
+      flex-shrink: 0;
+
+      a {
+        margin: 0px 16px;
+      }
+    }
+
+    .navbar-menu {
+      margin-right: 0.75rem;
+      display: flex;
+      align-items: stretch;
+      flex-grow: 1;
+      flex-shrink: 0;
+
+      .navbar-start {
+        display: flex;
+        align-items: stretch;
+        justify-content: flex-start;
+        margin-right: auto;
+      }
+
+      .navbar-end {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: auto;
+        align-items: center;
+
+        ul {
+          display: flex;
+          align-items: center;
+          li {
+            margin: 0px 16px;
+            a:focus {
+              color: #b30000;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.navbar-wrapper {
+  position: sticky;
+  /* always on top */
+  top: 0px;
+  width: 100%;
+  padding: 20px 0;
+  background-color: transparent;
+  z-index: 10;
+}
+
+/* Target direct ul child */
+.navbar>ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  align-items: center;
+  gap: 20px;
+  /* use gap bro not margin */
+}
+
+.navbar>ul>li>a {
+  text-decoration: none;
+  color: #333;
+}
+
+.donate-button {
+  padding: 12px 25px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: #b30000;
+}
+
+.donate-button:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0 10px;
+    justify-content: center;
+  }
+}
